@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:paddingLeft="13mm"
+        android:paddingTop="2mm"
+        android:paddingBottom="1mm"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:text="Informasi Daerah"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:paddingLeft="2mm"
+        android:paddingRight="2mm"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
